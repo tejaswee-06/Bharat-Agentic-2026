@@ -35,27 +35,33 @@ KAVACH moves wildlife monitoring from **reactive incident response** toward **pr
 
 ---
 
-# 🚨 The Problem
+# 🚨 The Problem: We React Too Late
 
-Wildlife reserves and forest regions are vast and difficult to monitor continuously.
+A forest can stretch for thousands of square kilometres.
+A wildlife movement can happen in minutes.
+And by the time an alert reaches the right people, **the conflict may have already happened.**
 
-Camera traps and field observations generate valuable information, but the data is often fragmented across:
+Today, critical wildlife intelligence is scattered across:
 
-* Camera-trap observations
-* Wildlife sightings
-* GIS information
-* Historical conflict records
-* Environmental conditions
+* 📷 **Camera-trap observations**
+* 🐾 **Wildlife sightings & field reports**
+* 🗺️ **GIS & protected-area data**
+* 📜 **Historical human-wildlife conflict records**
+* 🌦️ **Environmental & seasonal conditions**
 
-Wildlife movement is also dynamic and influenced by **time, season and environment**.
+But wildlife doesn't follow static boundaries.
 
-Because monitoring resources are limited, delayed intervention can make human-wildlife conflict harder to prevent.
+Their movement changes with **time, season, terrain, weather, food availability and surrounding human activity.**
 
-This creates a critical question:
+With limited forest personnel and monitoring resources, authorities cannot watch every location, every hour.
 
-> **Can we predict where wildlife conflict may happen next instead of reacting after it happens?**
+### So what if we could see the risk before the incident?
 
----
+> **Instead of asking “Where did wildlife conflict happen?” —
+> KAVACH asks “Where could it happen next?”**
+
+KAVACH brings fragmented wildlife, GIS, environmental and historical data together to **identify emerging conflict-risk zones and enable proactive intervention before a potential incident escalates.**
+
 
 # 💡 Our Solution
 

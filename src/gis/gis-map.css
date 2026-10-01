@@ -1,0 +1,37 @@
+/* Scoped to the Leaflet map instance only — keeps the rest of the
+   existing KAVACH UI/design completely untouched. */
+
+.leaflet-container {
+  background: #0a100c;
+  font-family: inherit;
+}
+
+.leaflet-control-attribution {
+  background: rgba(10, 16, 12, 0.75) !important;
+  color: var(--text-dim, #8a9a8f) !important;
+  font-size: 9.5px !important;
+}
+.leaflet-control-attribution a {
+  color: var(--text-muted, #b7c4ba) !important;
+}
+
+.kv-leaflet-tooltip {
+  background: rgba(10, 16, 12, 0.92) !important;
+  border: 1px solid var(--line-soft, #2a3a2e) !important;
+  color: #e9e4d8 !important;
+  font-size: 11px !important;
+  border-radius: 3px !important;
+  box-shadow: none !important;
+}
+.kv-leaflet-tooltip::before {
+  border-top-color: rgba(10, 16, 12, 0.92) !important;
+}
+
+@keyframes kv-hotspot-pulse-anim {
+  0%   { stroke-opacity: 1; }
+  70%  { stroke-opacity: 0.15; }
+  100% { stroke-opacity: 1; }
+}
+.kv-hotspot-pulse {
+  animation: kv-hotspot-pulse-anim 1.8s ease-in-out infinite;
+}

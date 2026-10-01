@@ -1,0 +1,26 @@
+# --- Core API ---
+fastapi
+uvicorn[standard]
+python-multipart
+
+# --- YOLO (species detection) ---
+ultralytics
+
+# --- Risk ML model (predict.py imports these directly — they were
+#     missing from this file, which is why a clean `pip install -r
+#     requirements.txt` + run would crash at startup with
+#     ModuleNotFoundError: No module named 'joblib' / 'pandas') ---
+joblib
+pandas
+# Pinned to match the version risk_model.pkl was trained/pickled with
+# (scikit-learn 1.7.1). A different installed version won't crash, but
+# sklearn will emit InconsistentVersionWarning and results can drift —
+# keep this pinned unless you retrain the model.
+scikit-learn==1.7.1
+numpy
+
+# --- GIS layer (optional — see gis/README) ---
+# The app now imports this defensively (backend/predict.py), so if it
+# fails to install/import, /predict and /risk keep working and only
+# the /gis/* routes are disabled.
+psycopg2-binary
